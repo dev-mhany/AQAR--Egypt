@@ -57,7 +57,7 @@
   .logo-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Adjust as needed */
+    justify-content: center; /* Adjust as needed */
 }
 
 .logo {
