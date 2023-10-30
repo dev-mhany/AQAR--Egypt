@@ -128,7 +128,7 @@ margin: 0 auto;
     max-width: 30vh;
     max-height: 30vh;
     height: auto;
-    border-radius: 100%;
+    border-radius: 10px;
     margin-right: 1em;
     float: left;
   }
