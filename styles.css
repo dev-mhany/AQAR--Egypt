@@ -1,0 +1,222 @@
+:root {
+    --main-color: #3498db;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --background-color: #ecf0f1;
+    --footer-color: #bdc3c7;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('real-estate-investment-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+  }
+  
+  header {
+    background-color: var(--main-color);
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    padding: 0.5em;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  
+  nav a:hover {
+    background-color: var(--accent-color);
+    color: black;
+  }
+  
+  .container {
+    padding: 2em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: var(--footer-color);
+    color: black;
+  }
+ /* Properties section*/
+ /*/////////////////////////////////////////////////////////*/
+ .property {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: white;
+}
+
+.property img {
+  max-width: 100%;
+  height: auto;
+}
+
+.property h3 {
+  margin: 0.5em 0;
+  color: #000000;
+
+}
+
+.property p {
+  margin: 0.5em 0;
+  color: #000000;
+
+}
+
+.property a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: var(--main-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.property a:hover {
+  background-color: var(--accent-color);
+}
+ /*Agent section*/
+ /*/////////////////////////////////////////////////////////*/
+ .agent {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+  }
+  
+  .agent img {
+    max-width: 30vh;
+    max-height: 30vh;
+    height: auto;
+    border-radius: 100%;
+    margin-right: 1em;
+    float: left;
+  }
+  
+  .agent h3 {
+    margin: 0.5em 0;
+    color: #000000;
+  }
+  
+  .agent p {
+    margin: 0.5em 0;
+    color: #000000;
+  }
+  
+  .agent:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ /*contacts section*/
+ /*/////////////////////////////////////////////////////////*/  
+ .form-group {
+    margin-bottom: 1em;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"],
+  button {
+    padding: 0.7em 1.5em;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: var(--accent-color);
+  }
+  .input-group {
+    margin-bottom: 1em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  /*property1*/
+  /*/////////////////////////////////////////////////////////*/
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('real-estate-investment-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+.property-details {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.property-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: #ffffff;
+}
